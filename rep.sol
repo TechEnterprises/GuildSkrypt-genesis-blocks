@@ -2,9 +2,9 @@ contract token {
     mapping (address => uint) public repBalanceOf;
     event RepTransfer(address sender, address receiver, uint amount);
 
-  /* Initializes contract with initial supply tokens to the creator of the contract */
+  /* Initializes contract with initial supply 100 million GuildRep to Tech Enterprises, creator of the contract */
   function token(uint supply) {
-        if (supply == 0) supply = 10000;
+        if (supply == 0) supply = 100000000;
         repBalanceOf[msg.sender] = supply;
     }
 
