@@ -5,7 +5,7 @@ Each GuildRep wallet address should be owned by only one user. The inherent risk
 
 One such token hooked into GuildRep is Experience Points. These points will be tradable among others for their experiential skills and abilities.
 
-We are currently testing at guildscrypt-alpha.guildworx.com if you'd like to attach a node with the genesis block provided.
+We are currently testing at guildscrypt-alpha.guildworx.com:30303 if you'd like to attach a node with the genesis block provided.
 We are running the 0.0.0 testnet at networkid 6515
 
 This is for the purpose of creating documentation and testing launching with a contract.
