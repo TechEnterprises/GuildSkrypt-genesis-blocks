@@ -1,4 +1,5 @@
 # pseudo-Experience points [pXP]
+
 Official ALPHA-informal blockchain currency for GuildWorx.com
 
 Each GuildRep wallet address should be owned by only one user. The inherent risk of exposing a private key will mitigate people from sharing them. From the other end we will be verifying ID before sending out a first transaction. Being a type of ID in itself these GuildRep wallets will be coded with a hook system for associating with a number of tokens such as merit badges, company stocks, and more.
@@ -15,7 +16,9 @@ This is for the purpose of creating documentation and testing launching with a c
 Installation
 --------------
 Ubuntu -
+
 Ethereum - 
+
 geth -
 
 geth --genesis <directory/guildscrypt-alpha-genesis.json> --datadir "guildscrypt-alpha" --networkid "6515" --etherbase "0x91404fd245647b7a1a62120407201eace266dc64" console
