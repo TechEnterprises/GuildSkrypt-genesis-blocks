@@ -9,7 +9,7 @@ One such token hooked into GuildRep is Experience Points. These points will be t
 We are currently testing at guildscrypt-alpha.guildworx.com:30303 if you'd like to attach a node with the genesis block provided.
 We are running the 0.0.01 testnet at networkid 6515 and permissioned blockchain at port 65170
 
-geth --genesis ~/gw-genesis-alpha.json --datadir "gw" --networkid "6515" --etherbase "0x91404fd245647b7a1a62120407201eace266dc64" console
+geth --genesis ~/gc-alpha-genesis.json --datadir "gc" --networkid "6515" --bootnodes "104.236.218.250:30303" --etherbase "0x91404fd245647b7a1a62120407201eace266dc64" console
 
 This is for the purpose of creating documentation and testing launching with a contract.
 
