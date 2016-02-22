@@ -9,6 +9,8 @@ We are running the 0.0.01 testnet at networkid 6515 and permissioned Eris blockc
 
 geth --datadir "gc" --networkid "6515" --bootnodes "enode://3de04a6772625f9b59388186afb980525200377a1063324adc20566b320a7b7b01d83dbc0534917f3ccfbe5a50b8d56a9810b8acac979043a08d7716bf7599b3@[::]:30303" --etherbase "0x91404fd245647b7a1a62120407201eace266dc64" console
 
+The genesis block will have a hash of [d4e56740...]
+
 This is for the purpose of creating documentation and testing launching with a contract.
 
 Installation
