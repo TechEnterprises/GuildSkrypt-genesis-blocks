@@ -12,8 +12,11 @@ This is for the purpose of creating documentation and testing launching with a c
 Installation
 --------------
 Ubuntu -
+
 sudo add-apt-repository -y ppa:ethereum/ethereum
+
 sudo apt-get update
+
 sudo apt-get install ethereum
 
 Mist - 
