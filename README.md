@@ -24,7 +24,7 @@ Mist -
 
 Open command line and navigate to Mist's geth folder to enter the following command line
 
-geth --datadir "guildskrypt" --genesis guildscrupt-genesis-alpha.json --networkid "6515" --etherbase "0x91404fd245647b7a1a62120407201eace266dc64" console
+geth --datadir "guildskrypt" --genesis guildscrupt-alpha-genesis.json --networkid "6515" --etherbase "0x91404fd245647b7a1a62120407201eace266dc64" console
 
 The genesis block will have a hash of [c4e098e1...]
 
