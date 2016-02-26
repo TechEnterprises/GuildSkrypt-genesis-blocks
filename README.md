@@ -28,3 +28,31 @@ geth --datadir "guildskrypt" --genesis guildskrypt-alpha-genesis.json --networki
 
 The genesis block will have a hash of [c4e098e1...]
 
+
+CLI Commands
+---------------
+Get Coinbase Total - 
+
+web3.fromWei(eth.getBalance(eth.coinbase), "ether")
+
+Mine -
+
+minerStart()
+
+
+
+
+
+javascript helper functions
+----------------------------
+//loadScript("balances.js")
+
+
+function checkAllBalances() { 
+var i =0; 
+eth.accounts.forEach( function(e){
+    console.log("  eth.accounts["+i+"]: " +  e + " \tbalance: " + web3.fromWei(eth.getBalance(e), "ether") + " ether"); 
+i++; 
+})
+}; 
+
