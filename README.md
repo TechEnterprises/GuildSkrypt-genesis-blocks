@@ -31,21 +31,23 @@ The genesis block will have a hash of [c4e098e1...]
 
 CLI Commands
 ---------------
-Get Coinbase Total - 
+#Get Coinbase Total - 
 
 web3.fromWei(eth.getBalance(eth.coinbase), "ether")
 
-Mine -
+#Mine -
 
 minerStart()
 
+#Bootnode -
 
+admin.addPeer('enode://3de04a6772625f9b59388186afb980525200377a1063324adc20566b320a7b7b01d83dbc0534917f3ccfbe5a50b8d56a9810b8acac979043a08d7716bf7599b3@104.236.218.250:30303')
 
 
 
 javascript helper functions
 ----------------------------
-//loadScript("balances.js")
+#//loadScript("balances.js")
 
 
 function checkAllBalances() { 
