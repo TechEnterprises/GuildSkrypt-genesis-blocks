@@ -33,7 +33,7 @@ web3.fromWei(eth.getBalance(eth.coinbase), "ether")
 
 #Mine -
 
-minerStart()
+miner.start()
 
 #Bootnode -
 
