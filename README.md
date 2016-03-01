@@ -20,9 +20,9 @@ Mist -
 
 Open command line and navigate to Mist's geth folder to enter the following command line
 
-geth --datadir "guildskrypt" --genesis guildskrypt-alpha-genesis.json --networkid "6515" --etherbase "0x91404fd245647b7a1a62120407201eace266dc64" console
+geth --datadir "guildskrypt" --genesis LEAPDAY.json --networkid "65170" --etherbase "0x91404fd245647b7a1a62120407201eace266dc64" console
 
-The current genesis block will have a hash of [40981a77...]
+The LEAP DAY genesis block will have a hash of [8090272c...]
 
 
 CLI Commands
