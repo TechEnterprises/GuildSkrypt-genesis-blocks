@@ -20,30 +20,30 @@ Mist -
 
 Open command line and navigate to Mist's geth folder to enter the following command line
 
-geth --datadir "guildskrypt" --genesis LEAPDAY.json --networkid "65170" --etherbase "0x91404fd245647b7a1a62120407201eace266dc64" console
+geth --datadir "guildskrypt" --genesis "LEAPDAY.json" --networkid "65170" --etherbase "0x91404fd245647b7a1a62120407201eace266dc64" --bootnodes "enode://e491f1f4178833883f8a8a7009159f6cb4a59635eed70645013b55f872240447504bbff46b0a6a46bef8ed57eb1c0b29dd1f97362af2cc46fb001ce145601a8f@104.236.218.250:30303" console
 
 The LEAP DAY genesis block will have a hash of [8090272c...]
 
 
-CLI Commands
+#CLI Commands
 ---------------
-#Get Coinbase Total - 
+##Get Coinbase Total - 
 
 web3.fromWei(eth.getBalance(eth.coinbase), "ether")
 
-#Mine -
+##Mine -
 
 miner.start()
 
-#Bootnode -
+##Bootnode -
 
 admin.addPeer('enode://e491f1f4178833883f8a8a7009159f6cb4a59635eed70645013b55f872240447504bbff46b0a6a46bef8ed57eb1c0b29dd1f97362af2cc46fb001ce145601a8f@104.236.218.250:30303')
 
 
 
-javascript helper functions
+#javascript helper functions
 ----------------------------
-#//loadScript("balances.js")
+##//loadScript("balances.js")
 
 
 function checkAllBalances() { 
