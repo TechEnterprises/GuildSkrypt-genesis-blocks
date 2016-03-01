@@ -22,7 +22,7 @@ Open command line and navigate to Mist's geth folder to enter the following comm
 
 geth --datadir "guildskrypt" --genesis guildskrypt-alpha-genesis.json --networkid "6515" --etherbase "0x91404fd245647b7a1a62120407201eace266dc64" console
 
-The genesis block will have a hash of [c4e098e1...]
+The current genesis block will have a hash of [40981a77...]
 
 
 CLI Commands
@@ -37,7 +37,7 @@ minerStart()
 
 #Bootnode -
 
-admin.addPeer('enode://3de04a6772625f9b59388186afb980525200377a1063324adc20566b320a7b7b01d83dbc0534917f3ccfbe5a50b8d56a9810b8acac979043a08d7716bf7599b3@104.236.218.250:30303')
+admin.addPeer('enode://a7483e43349323667f8e4d4ceef4e76ab8dac68ca0677db77065c79b2c7e499e5337591a158048d96d7ffe9a0ab48b579ded550c37e038a700ed4abdb6f1229e@104.236.218.250:30303')
 
 
 
