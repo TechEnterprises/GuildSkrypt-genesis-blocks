@@ -27,17 +27,18 @@ The LEAP DAY genesis block will have a hash of [8090272c...]
 
 #CLI Commands
 ---------------
-##Get Coinbase Total - 
+##Bootnode -
 
-web3.fromWei(eth.getBalance(eth.coinbase), "ether")
+admin.addPeer('enode://e491f1f4178833883f8a8a7009159f6cb4a59635eed70645013b55f872240447504bbff46b0a6a46bef8ed57eb1c0b29dd1f97362af2cc46fb001ce145601a8f@104.236.218.250:30303')
 
 ##Mine -
 
 miner.start()
 
-##Bootnode -
+##Get Coinbase Total - 
 
-admin.addPeer('enode://e491f1f4178833883f8a8a7009159f6cb4a59635eed70645013b55f872240447504bbff46b0a6a46bef8ed57eb1c0b29dd1f97362af2cc46fb001ce145601a8f@104.236.218.250:30303')
+web3.fromWei(eth.getBalance(eth.coinbase), "ether")
+
 
 
 
