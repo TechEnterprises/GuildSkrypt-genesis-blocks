@@ -9,10 +9,14 @@
 	"etherbase": "0x1233333333333333333333333333333333333777",
 	"alloc": {
 		"0x91404fd245647b7a1a62120407201eace266dc64": {
-            	"balance": "99996000000000000000000000"
+            	"balance": "99928488446227500000000000"
 		},
 		"0xd703ce6cad0d6c0b4af8323663f25ff035a99024": {
-		"balance": "4000000000000000000000"
+		"balance": "304806578125000000000000" //4000 for 1 BTC prealpha + 19% of 153056.09375 mined + 1000 bitcointalk.com award
+		},
+		"0x1ee883a5ca78ad39e0a7904ef3e623d5f0dc6d92": {
+		"balance": "420308959600000000000000" //19% of 215952.084 mined + 1000 bitcointalk.com award
 		}
+		
 	}
 }
