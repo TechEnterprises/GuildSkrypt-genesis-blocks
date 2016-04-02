@@ -12,10 +12,10 @@
             	"balance": "99928488446227500000000000"
 		},
 		"0xd703ce6cad0d6c0b4af8323663f25ff035a99024": {
-		"balance": "304806578125000000000000" //4000 for 1 BTC prealpha + 19% of 153056.09375 mined + 1000 bitcointalk.com award
+		"balance": "304806578125000000000000"
 		},
 		"0x1ee883a5ca78ad39e0a7904ef3e623d5f0dc6d92": {
-		"balance": "420308959600000000000000" //19% of 215952.084 mined + 1000 bitcointalk.com award
+		"balance": "420308959600000000000000"
 		}
 	}
 }
